@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav bar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 9px 20px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    border-radius: 10px;
+    background-color:rgba(1,1,1,0.75) whitesmoke;
+    color: whitesmoke;
+    box-shadow: 0 0 10px white ;
+}
